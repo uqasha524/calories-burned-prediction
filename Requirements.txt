@@ -1,0 +1,12 @@
+> Contains a list of Python libraries required to run the project.
+  These include:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- tensorflow
+Use the following command to install all dependencies:
+pip install pandas numpy matplotlib scikit-learn tensorflow seaborn
+
+⚠️ Make sure to use Python version between 3.9 and 3.12. TensorFlow is not supported in versions above 3.12.
