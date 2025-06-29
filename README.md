@@ -48,6 +48,26 @@ Each row represents one workout session with corresponding physiological data an
 
 ---
 
+## 🔍 Feature Selection
+
+### What is Correlation?
+
+**Correlation** is a statistical measure that expresses the extent to which two variables are linearly related. In machine learning, we use correlation to identify relationships between features and the target variable. A high correlation (close to +1 or -1) suggests a strong relationship, while a correlation near 0 indicates little to no linear relationship.
+
+### 📌 Correlation Heatmap
+
+<img src="Images/co.png" alt="Correlation Heatmap" width="600"/>
+
+> *This heatmap shows the correlation coefficients between all numerical features in the dataset.*
+
+### ✅ Feature Selection Insights from Heatmap
+
+- We dropped **User_ID** as it is just an identifier and not useful for prediction.
+- **Height** and **Weight** have a very high correlation (**0.96**), which indicates **multicollinearity**.
+- To address this, we dropped **Height** because it has a low correlation (**0.02**) with the target variable **Calories**.
+
+---
+
 ## 🧪 Libraries Used
 - `pandas`
 - `numpy`
