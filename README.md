@@ -5,8 +5,6 @@ This project predicts the number of calories burned during a workout based on us
 
 ---
 
-## 📸 Demo Image
-
 <img src="Images/main.png" alt="Calories Burned Demo" width="600"/>
 
 ---
