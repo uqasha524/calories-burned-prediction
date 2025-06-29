@@ -25,6 +25,29 @@ Each row represents one workout session with corresponding physiological data an
 
 ---
 
+## 📈 EDA Questions for Fitness Dataset
+
+### 1. General Information
+- What is the total number of unique users in the dataset?
+- What is the gender distribution of users?
+- Are there any missing values in any of the columns?
+
+### 2. Statistical Summary
+- What is the mean, median, and standard deviation of Age, Height, Weight, Duration, Heart Rate, Body Temp, and Calories?
+- Are there any outliers in the numerical columns?
+
+### 3. Relationship-Based Analysis
+- How does workout Duration affect Calories burned?
+- Is there a correlation between Heart Rate and Calories burned?
+- Does Body Temperature change significantly with Age or workout Duration?
+
+### 4. Grouped Comparisons
+- What is the average Calories burned by Gender?
+- How does the average Heart Rate vary across different Age groups?
+- Is there a trend in Calories burned with increasing Age?
+
+---
+
 ## 🧪 Libraries Used
 - `pandas`
 - `numpy`
