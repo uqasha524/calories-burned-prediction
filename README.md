@@ -68,6 +68,53 @@ Each row represents one workout session with corresponding physiological data an
 
 ---
 
+## 📈 Model Results & Comparison
+
+Below are the evaluation metrics from various Machine Learning models and the Artificial Neural Network (ANN) used to predict calories burned. The metrics used include:
+
+- **MAE (Mean Absolute Error)**
+- **MSE (Mean Squared Error)**
+- **RMSE (Root Mean Squared Error)**
+- **R² Score (Coefficient of Determination)**
+
+### 🔍 Linear Regression
+- **MAE** : 8.44  
+- **MSE** : 126.47  
+- **RMSE**: 11.25  
+- **R² Score**: 96.63%
+
+---
+
+### 🔍 Support Vector Regression (SVR)
+- **MAE** : 1.99  
+- **MSE** : 22.77  
+- **RMSE**: 4.77  
+- **R² Score**: 99.39%
+
+---
+
+### 🔍 Decision Tree Regressor
+- **MAE** : 3.29  
+- **MSE** : 26.64  
+- **RMSE**: 5.16  
+- **R² Score**: 99.29%
+
+---
+
+### 🔍 Random Forest Regressor
+- **MAE** : 1.72  
+- **MSE** : 7.38  
+- **RMSE**: 2.72  
+- **R² Score**: 99.80%
+
+---
+
+### 🤖 Artificial Neural Network (ANN)
+- **R² Score**: **100.00%**  
+> The ANN model outperformed all traditional ML models and achieved perfect accuracy on the test set.
+
+---
+
 ## 🧪 Libraries Used
 - `pandas`
 - `numpy`
