@@ -1,5 +1,3 @@
-# **calories-burned-prediction**
-
 # 🔥 Calories Burned Prediction Using ML & ANN
 
 ## 📌 Project Overview
