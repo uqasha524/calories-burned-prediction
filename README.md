@@ -115,6 +115,26 @@ Below are the evaluation metrics from various Machine Learning models and the Ar
 
 ---
 
+## 🧠 Real-Time Calorie Prediction
+
+While we didn’t build a front-end interface, we implemented an interactive **real-time prediction system** within the Jupyter notebook. Users are prompted to input their:
+
+- Gender (`Male` or `Female`)
+- Age
+- Weight (in kg)
+- Workout Duration (in minutes)
+- Heart Rate
+- Body Temperature (in °C)
+
+These inputs are:
+- **Label encoded** (for Gender)
+- **Scaled** using the same preprocessing used during training
+- Passed to the trained **ANN model** (`best_model.keras`) to predict calories burned
+
+> 💡 *This approach provides instant, personalized calorie burn predictions using the model's learned patterns—all from within a notebook cell!*
+
+---
+
 ## 🧪 Libraries Used
 - `pandas`
 - `numpy`
