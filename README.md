@@ -23,4 +23,19 @@ This project predicts the number of calories burned during a workout based on us
 
 ## 📁 Project Structure
 
-
+calories-prediction/
+├── data/
+│ ├── exercise.csv # Input features with User_ID
+│ ├── calories.csv # Target values (calories burned) with User_ID
+│ └── (Merged during runtime using pd.merge on 'User_ID')
+│
+├── models/
+│ ├── best_model.keras # Trained ANN model
+│ ├── gender_encoder.pkl # Label encoder for gender feature
+│ └── scaler.pkl # Preprocessing scaler used in training
+│
+├── notebooks/
+│ └── code.ipynb # Full workflow: EDA → Preprocessing → Training → Prediction
+│
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
